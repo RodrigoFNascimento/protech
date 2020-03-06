@@ -1,0 +1,54 @@
+﻿@using ProTech.Domain;
+@model ProTech.Domain.Candidato
+
+@{
+    ViewBag.Title = "CandidatoMvcView";
+    var candidato = ViewBag.Message;
+}
+
+<h2>@candidato.Nome</h2>
+<p>@candidato.DataNascimento</p>
+<br />
+<hr />
+<br />
+<h3>Formacao</h3>
+@foreach (Formacao f in candidato.Formacao)
+{
+    <p><b>Curso:</b> @f.Curso</p>
+    <p><b>Status:</b> @f.Status</p>
+    <p><b>Data de Conclusao:</b> @f.DataConclusao</p>
+}
+
+<br />
+<hr />
+<br />
+
+<h3><b>Experiência total:</b> @candidato.ExperienciaTotal</h3>
+
+<br />
+<hr />
+<br />
+
+<h3>Experiência</h3>
+
+@foreach (Experiencia xp in candidato.Experiencia)
+{
+    <p><b>Tecnologia:</b> @xp.Tecnologia</p>
+    <p><b>Tempo experiência:</b> @xp.TempoExperiencia</p>
+    <p><b>Detalhe experiência:</b> @xp.DetalheExperiencia</p>
+}
+
+<br />
+<hr />
+<br />
+
+<h3>Experiência Empresas</h3>
+
+@foreach (ExperienciaEmpresa xp in candidato.ExperienciaEmpresas)
+{
+    <p><b>Empresa:</b> @xp.Empresa</p>
+    <p><b>Cargo:</b> @xp.Cargo</p>
+    <p><b>Data início:</b> @xp.DataInicio</p>
+    <p><b>Data fim:</b> @xp.DataFim</p>
+    <p><b>Detalhe experiência:</b> @xp.DetalheExperiencia</p>
+}
