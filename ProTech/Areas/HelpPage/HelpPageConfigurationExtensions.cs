@@ -1,3 +1,5 @@
+using ProTech.Areas.HelpPage.ModelDescriptions;
+using ProTech.Areas.HelpPage.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -11,8 +13,6 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
-using ProTech.Areas.HelpPage.ModelDescriptions;
-using ProTech.Areas.HelpPage.Models;
 
 namespace ProTech.Areas.HelpPage
 {

@@ -1,45 +1,50 @@
 {
-  "Nome": "Seu Nome",
-  "DataNascimento": "01-01-2018",
+  "Nome": "Rodrigo Fonseca Nascimento",
+  "DataNascimento": "10-07-2020",
   "Formacao": [
     {
-      "Curso": "Curso 1",
-      "Status": "Concluido/Em Andamento/Trancado",
-      "DataConclusao": "12-12-2019 / 01-01-2014"
+      "Curso": "Sistemas de informacao",
+      "Status": "Em Andamento",
+      "DataConclusao": "01-12-2023"
     },
     {
-      "Curso": "Curso 2",
-      "Status": "Concluido/Em Andamento/Trancado",
-      "DataConclusao": "12-12-2019 / 01-01-2014"
+      "Curso": "Publicidade e propaganda",
+      "Status": "Concluido",
+      "DataConclusao": "01-02-2014"
     }
   ],
-  "ExperienciaTotal": 10,
+  "ExperienciaTotal": 2,
   "Experiencia": [
     {
-      "Tecnologia": "c#",
-      "TempoExperiencia": 1,
-      "DetalheExperiencia": "Trabalhei em projeto XYZ, atuando como/responsavel por..."
+      "Tecnologia": "C#",
+      "TempoExperiencia": 2,
+      "DetalheExperiencia": "Desenvolvi sistema web ERP, sistema desktop de sincronizacao de estoque entre lojas fisica e virtual, sistema desktop de impressao de etiquetas."
     },
     {
       "Tecnologia": "WebAPI",
-      "TempoExperiencia": 1, 
-      "DetalheExperiencia": "Trabalhei em projeto XYZ, atuando como/responsavel por..."
+      "TempoExperiencia": 2,
+      "DetalheExperiencia": "Desenvolvi sistema de geracao e envio de notas fiscais eletronicas para a Secretaria da Fazenda."
+    },
+    {
+      "Tecnologia": "Java",
+      "TempoExperiencia": 2, 
+      "DetalheExperiencia": "Desenvolvi software de caixa de varejo."
     }
   ],
     "ExperienciaEmpresas": [
     {
-      "Empresa": "EmpresaX",
+      "Empresa": "Mistao",
       "Cargo": "Dev Junior",
-      "DataInicio":"01-01-2010",
-      "DataFim":"01-01-2012",
-      "DetalheExperiencia": "Trabalhei em projeto XYZ, atuando como/responsavel por..."
+      "DataInicio":"01-11-2019",
+      "DataFim":"06-03-2020",
+      "DetalheExperiencia": "Realizei suporte, manutencao e desenvolvimento de sistema web ERP e software de caixa de varejo desktop."
     },
     {
-      "Empresa": "EmpresaX",
-      "Cargo": "Dev Junior",
-      "DataInicio":"01-01-2010",
-      "DataFim":"01-01-2012",
-      "DetalheExperiencia": "Trabalhei em projeto XYZ, atuando como/responsavel por..."
+      "Empresa": "Mistao",
+      "Cargo": "Desenvolvedor estagiario",
+      "DataInicio":"21-08-2017",
+      "DataFim":"01-11-2019",
+      "DetalheExperiencia": "Realizei suporte, manutencao e desenvolvimento de sistema web ERP e software de caixa de varejo desktop."
     }
   ]
 }

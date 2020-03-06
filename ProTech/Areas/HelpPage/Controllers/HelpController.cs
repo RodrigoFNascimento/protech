@@ -1,8 +1,8 @@
+using ProTech.Areas.HelpPage.ModelDescriptions;
+using ProTech.Areas.HelpPage.Models;
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using ProTech.Areas.HelpPage.ModelDescriptions;
-using ProTech.Areas.HelpPage.Models;
 
 namespace ProTech.Areas.HelpPage.Controllers
 {
